@@ -26,7 +26,7 @@ function Search() {
                 <input className="border-gray-300 border-2 rounded-md ml-5" value={query} onChange={(e) => setQuery(e.target.value)} />
             </div>
             {showAutocomplete && (
-                <div className='autocomplete' style={{ position: 'absolute' }}>
+                <div className='border-2 border-black ml-48 rounded-md w-64 bg-white' style={{ position: 'absolute' }}>
                     {shows.map((show: any) => (
                         <div key={show.show.id}>
                             <Link className='link' to={`/shows/${show.show.id}`}>
