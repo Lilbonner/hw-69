@@ -26,7 +26,7 @@ function ShowDetail() {
                 <img alt='img' className='ml-5 mt-10 rounded-md' src={showDetail.image.medium}/>
                 <div className="mt-14 ml-6">
                     <h2 className='text-3xl '>{showDetail.name}</h2>
-                    <p className='mt-4 text-2xl'>{showDetail.summary}</p>
+                    <p className='mt-4'>{showDetail.summary}</p>
                 </div>
             </div>
 
